@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    html,body{
+      height: 100%;
+    }
+    
+    .faixa{
+    height: 40px;
+    background-color: rgba(99, 3, 3, 0.13);
+    position: static;
+
+    
+    }
+
+
+body {
+
+    background-color: rgb(24, 24, 23);
+    
+}
+
+
+header h1{
+    position: relative;
+    top: 0%;  left: 2%;
+color: rgb(255, 255, 255);
+
+}
+
+
