@@ -121,4 +121,39 @@ display: flex;
 .styled:active {
   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
- 
+                                
+
+
+
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+header {
+  background-color: lightgray;
+  height: 60px;
+  display: flex;
+  
+  
+align-items: center;
+  
+  
+justify-content: center;
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 767px) {
+  
+  
+body {
+    font-size: 14px;
+  }
+
+  header {
+    height: 40px;
+  }
+}
